@@ -28,7 +28,7 @@ function handleButton(event) {
 }
 
 
-// window.onload = () => {
+
 
   handleJSON("Titanic")
 
@@ -36,5 +36,5 @@ function handleButton(event) {
   for (let i = 0; i < buttons.length; i++) {
     buttons[i].addEventListener('click', handleButton)
   }
-// };
+
 });
