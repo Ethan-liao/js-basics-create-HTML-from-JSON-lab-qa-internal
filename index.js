@@ -1,4 +1,4 @@
-document.addEventListener("DOMContentloaded", (e) => {
+
 function handleJSON(movie) {
 
     let json = movies[movie]
@@ -37,4 +37,4 @@ window.onload = () => {
     buttons[i].addEventListener('click', handleButton)
   }
 };
-});
+
